@@ -10,12 +10,12 @@ A Spring Boot application for player management, leaderboards, and game events.
 
 ## Database Setup
 
-1. Create the database using the provided SQL file:
+1. Create database and tables using the provided SQL file:
    ```sql
    mysql -u root -p < schema.sql
    ```
    Or manually execute the SQL commands in `schema.sql`.
-   Note- 4 tables will be createdin reliance_games db
+   Note- 4 tables will be created in reliance_games db
 
 2. Update `src/main/resources/application.properties` with your MySQL credentials:
    ```properties
